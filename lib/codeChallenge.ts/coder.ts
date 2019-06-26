@@ -1,8 +1,8 @@
-var caesarShift = function(str, amount) {
+var encryption = function(str, amount) {
 
 	// Wrap the amount
 	if (amount < 0)
-		return caesarShift(str, amount + 26);
+		return encryption(str, amount + 26);
 
 	// Make an output variable
 	var output = '';
