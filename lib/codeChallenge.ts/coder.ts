@@ -1,6 +1,6 @@
-function encryption(str: string, amount: number) : string {
+function Encryption(str: string, amount: number) : string {
 	if (amount < 0)
-		return encryption(str, amount + 26);
+		return Encryption(str, amount + 26);
 	var encryptedCode : string = '';
 	for (var i = 0; i < str.length; i ++) {
 		var c = str[i];
@@ -16,4 +16,6 @@ function encryption(str: string, amount: number) : string {
 	}
 	return encryptedCode;
 };
-console.log(encryption('Attack at dawn!', 12))
+console.log(Encryption('Attack at dawn!', 12))
+
+module.exports = Encryption
