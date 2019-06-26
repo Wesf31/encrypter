@@ -1,3 +1,6 @@
 describe("Encrypter", function() {
-    var Encrypter = require('../../lib/coder.ts')
+    var Encryption = require('../../lib/coder.ts')
+})
+it("should return the shifted letter", function(){
+    Encryption
 })
