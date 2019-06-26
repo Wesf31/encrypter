@@ -39,4 +39,4 @@ var encryption = function(str, amount) {
 
 };
 
-console.log(caesarShift('Attack at dawn!', 12))
+console.log(encryption('Attack at dawn!', 12))
