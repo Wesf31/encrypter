@@ -1,3 +1,3 @@
 describe("Encrypter", function() {
-    var Encrypter = require('../../lib/codeChallenge.ts')
+    var Encrypter = require('../../lib/coder.ts')
 })
