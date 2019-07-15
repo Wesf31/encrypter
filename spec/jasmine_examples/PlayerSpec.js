@@ -58,3 +58,9 @@
 //     });
 //   });s
 // });
+
+var Encoder = require('../../tscodeChallenge.ts')
+
+describe('test the func', () => {
+  it
+})
